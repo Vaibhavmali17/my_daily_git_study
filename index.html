@@ -1,32 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-    <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillSprint | Developer Journey</title>
+  <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <h1>Hello first git handle code</h1>
-    <div class="navbar">
-  <h2 class="logo">MyWebsite</h2>
-  <ul class="nav-links">
-    <li>Home</li>
-    <li>Services</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
-</div>
-    <h2>Our Services</h2>
 
-<ul>
-  <li>Web Design</li>
-  <li>Frontend Development</li>
-  <li>Backend Development</li>
-  <li>Git & GitHub Practice</li>
-</ul>           
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <h2 class="logo">SkillSprint</h2>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+        <section id="projects">
+            <h2>Projects</h2>
+          <p>Projects coming soon 🚀</p>
+        </section>
 
 
 
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    
+
+    <h1>From Beginner to Full Stack Developer 🚀</h1>
+    <p id="status-text">
+      Learning HTML, CSS, JavaScript & Git step by step.
+    </p>
+
+    <button id="actionBtn">Update My Progress</button>
+  </section>
+
+        <!-- Day 4 -->
+         <section class="intro">
+         <h2>Welcome to SkillSprint</h2>
+             <p id="message">Click the button to see magic ✨</p>
+               <button onclick="showMessage()">Click Me</button>
+        </section>
+
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services">
+    <h2>What I Am Learning</h2>
+    <ul>
+      <li>Frontend (HTML, CSS, JavaScript)</li>
+      <li>Git & GitHub (Daily Practice)</li>
+      <li>Backend (Coming Soon)</li>
+      <li>Database (Coming Soon)</li>
+
+    </ul>
+  </section>
+
+  <section class="skills">
+  <h2>My Skills</h2>
+  <ul id="skillsList"></ul>
+  <button onclick="loadSkills()">Show Skills</button>
+</section>
+    
+
+      <section id="contact">
+     <h2>Contact Me</h2>
+        <p>Email: comingsoon@gmail.com</p>
+      </section>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2026 SkillSprint | Built by Vaibhav Mali</p>
+  </footer>
+
+  <!-- JS FILE (HAMESHA BODY KE LAST ME) -->
+  <script src="script.js"></script>
 </body>
 </html>

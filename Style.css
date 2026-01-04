@@ -1,66 +1,111 @@
-/* body{ */
-    /* background-color: aquamarine;
-    font-style: italic;
-    text-decoration:red ;
-} */
-h1 {
-    margin-top: 2px;
-    margin-bottom: 2px;
-  color: rgb(17, 179, 173);
-  font-family: Arial, sans-serif;
-  margin-left: 40g0px;
-}
-
-h2 {
-  color: rgb(57, 176, 172);
-  font-family: Arial, sans-serif;
-}
-
-ul .services-list {
-  background-color: #f4e2a9;
-  padding: 5px;
-  width: 300px;
-}
-
-li.services-list {
-    color: brown;
-  margin: 8px 0;
-  font-size: 16px;
-}
-body {
+     /* Day 1,2,3 */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== NAVBAR ===== */
 .navbar {
-    height: 20px;
-    margin-top: 2px;
-  background-color: #333;
+  background-color: #222;
   color: white;
-  padding: 18px;
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
-  margin: 0px;
-}
-
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px;
-  margin: 0px;
+  gap: 25px;
 }
-ul .nav-links {
-  background-color: #f4e2a9;
-  padding: 5px;
-  width: 300px;
-}
+
 .nav-links li {
   cursor: pointer;
 }
+
 .nav-links li:hover {
-  text-decoration: underline;
+  color: #00e0c6;
 }
+
+/* ===== HERO ===== */
+.hero {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(to right, #00e0c6, #7fffd4);
+}
+
+.hero h1 {
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+/* ===== SERVICES ===== */
+.services {
+  padding: 40px;
+}
+
+.services ul {
+  margin-top: 15px;
+  line-height: 2;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Day 4 */
+.intro {
+  margin: 40px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #17b3ad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f8c88;
+}
+#message {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Day 5  */
