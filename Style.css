@@ -1,13 +1,8 @@
-     /* Day 1,2,3 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 /* ===== NAVBAR ===== */
@@ -82,30 +77,14 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
-
-/* Day 4 */
-.intro {
-  margin: 40px;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 10px;
+footer p {
+  font-size: 14px;
 }
-
-button {
-  padding: 10px 20px;
-  background-color: #17b3ad;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+footer a {
+  color: #00e0c6;
+  text-decoration: none;
 }
-
-button:hover {
-  background-color: #0f8c88;
+footer a:hover {
+  text-decoration: underline;
 }
-#message {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-/* Day 5  */
+    
